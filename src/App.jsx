@@ -5,8 +5,18 @@ import Maindash from './components/Maindash'
 function App() {
   return (
     <>
-    <Headerdash/>
-    <Maindash />
+    <body>
+
+      <header>
+        <Headerdash/>
+      </header>
+
+      <main>
+        <Maindash/>
+      </main>
+    
+
+    </body>
     </>
   )
 }
